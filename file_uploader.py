@@ -2,10 +2,8 @@ import streamlit as st
 from io import StringIO
 from PIL import Image
 
-st.set_page_config(
-    page_title="File uploader test",
-    layout="wide"
-)
+st.title("File uploader test")
+st.write("Choose a .py, .jpg or a .txt file")
 
 uploaded_file = st.file_uploader("Choose a file", type=["py", "jpg", "txt"])
     
