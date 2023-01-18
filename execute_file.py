@@ -1,7 +1,7 @@
 import streamlit as st
 from io import StringIO
 
-st.title("File read test")
+st.title("File execute test")
 st.write("Choose python file to display")
 
 uploaded_file = st.file_uploader("Choose a file", type=["py"])
